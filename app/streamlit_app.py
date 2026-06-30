@@ -45,11 +45,14 @@ def add_css() -> None:
         }
         h1 { font-size: 2.6rem !important; }
         div[data-testid="stMetricValue"] {
-            font-size: 2.2rem;
+            font-size: 2.6rem;
         }
         div[data-testid="stMetricValue"] > div {
             overflow: visible;
             white-space: nowrap;
+        }
+        div[data-testid="stMetricLabel"] {
+            font-size: 1.0rem;
         }
 
         .prediction-card {
@@ -67,7 +70,7 @@ def add_css() -> None:
         }
         .subtle {
             color: rgba(250,250,250,0.65);
-            font-size: 1.05rem;
+            font-size: 1.15rem;
         }
         .good { color: #21c55d; font-weight: 700; }
         .bad { color: #ef4444; font-weight: 700; }
