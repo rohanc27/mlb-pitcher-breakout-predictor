@@ -1,0 +1,11 @@
+pybaseball>=2.2.7
+pandas==2.3.3
+numpy==2.0.2
+pyarrow==21.0.0
+scikit-learn==1.6.1
+xgboost==2.1.4
+matplotlib==3.9.4
+joblib==1.5.3
+streamlit==1.50.0
+requests>=2.31.0
+lxml>=4.9.0
